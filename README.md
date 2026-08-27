@@ -1,6 +1,6 @@
 # realtime-core
 
-The Rust implementation of [`realtime-core`](https://github.com/abrahamahn/realtime-core):
+The Rust implementation of [`realtime-core`](https://github.com/abrahamahn/realtime-core-rs):
 dependency-free primitives for ordered delivery, subscription hubs, bounded client recovery,
 reconnect state, heartbeat liveness, and application-defined realtime envelopes.
 
