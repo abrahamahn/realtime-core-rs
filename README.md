@@ -1,8 +1,10 @@
-# realtime-core
+# realtime-core-rs
 
-The Rust implementation of [`realtime-core`](https://github.com/abrahamahn/realtime-core-rs):
-dependency-free primitives for ordered delivery, subscription hubs, bounded client recovery,
-reconnect state, heartbeat liveness, and application-defined realtime envelopes.
+This repository contains only the `realtime-core` Rust crate and language-neutral JSON
+conformance fixtures. It has no npm, Node.js, or TypeScript build dependency.
+
+The crate provides dependency-free primitives for ordered delivery, subscription hubs, bounded
+client recovery, reconnect state, heartbeat liveness, and application-defined realtime envelopes.
 
 ```rust
 use std::collections::HashSet;
